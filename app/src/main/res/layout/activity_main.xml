@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tituloTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de contactos"
+        android:textSize="34dp"
+        android:textColor="@color/blue"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+         />
+
+    <ListView
+        android:id="@+id/listaLv"
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        android:layout_weight="1"></ListView>
+
+
+</LinearLayout>
